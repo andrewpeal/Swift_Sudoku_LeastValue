@@ -1,0 +1,2 @@
+# Swift_Sudoku_LeastValue
+Sudoku puzzle generator written in purely Swift, implementing a least value algorithm. This is an expensive algorithm (in terms of compute) but is better than the brute-force backtracking algorithm that is commonly used. To use, create an instance of the Board class. The puzzle is generated on initialisation and stored in a key-value dictionary with the key being the position of the cell in the Sudoku grid, and the value being a Cell object.
